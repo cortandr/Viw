@@ -1,0 +1,300 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mCommandsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Moving left and right moves the cursor (example for multiple commands) *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59148:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Moving left moves the cursor *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59160:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Moving up moves the cursor *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59173:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Moving down moves the cursor *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59185:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Moving right moves the cursor  *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59197:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Next word *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59206:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Back word *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59215:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- End of word *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59224:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- End of line *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59233:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Start of line *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59242:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Match brackets *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59251:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Delete *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59260:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Delete backwards *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59269:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Delete line *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59278:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Join line *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59291:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Insert into normal mode *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59300:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Insert after character *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59309:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Open newline *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59318:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Substitute *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59327:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Go *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59340:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Insert in line *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59349:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Insert after line *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59358:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Change to the end of the line *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.NotImplementedError.<init>(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at {anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59367:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m

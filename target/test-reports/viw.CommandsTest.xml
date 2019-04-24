@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="eva01" name="viw.CommandsTest" tests="23" errors="0" failures="23" skipped="0" time="0.045">
+                     <properties>
+      <property name="java.vendor" value="Oracle Corporation"/><property name="swing.aatext" value="true"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="idea.runid" value="2018.2"/><property name="jnidispatch.path" value="/tmp/jna-97717/jna6182074136807829079.tmp"/><property name="graalvm.home" value="/usr/lib/jvm/java-8-graal"/><property name="os.name" value="Linux"/><property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-graal/jre/lib/resources.jar:/usr/lib/jvm/java-8-graal/jre/lib/rt.jar:/usr/lib/jvm/java-8-graal/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-graal/jre/lib/jsse.jar:/usr/lib/jvm/java-8-graal/jre/lib/jce.jar:/usr/lib/jvm/java-8-graal/jre/lib/charsets.jar:/usr/lib/jvm/java-8-graal/jre/lib/jfr.jar:/usr/lib/jvm/java-8-graal/jre/lib/jvmci-services.jar:/usr/lib/jvm/java-8-graal/jre/classes:/usr/lib/jvm/java-8-graal/jre/lib/boot/graal-sdk.jar:/usr/lib/jvm/java-8-graal/jre/lib/boot/graaljs-scriptengine.jar:/usr/lib/jvm/java-8-graal/jre/lib/boot/graal-sdk.src.zip"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.runtime.version" value="1.8.0_192-20181024121959.buildslave.jdk8u-src-tar--b12"/><property name="profiler.home" value="/usr/lib/jvm/java-8-graal/jre/tools/profiler"/><property name="jna.loaded" value="true"/><property name="user.name" value="bob"/><property name="user.language" value="en"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-graal/jre/lib/amd64"/><property name="jna.nosys" value="true"/><property name="idea.managed" value="true"/><property name="java.version" value="1.8.0_192"/><property name="user.timezone" value="Europe/Brussels"/><property name="sun.arch.data.model" value="64"/><property name="jline.shutdownhook" value="false"/><property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-graal/jre/lib/endorsed"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="file.encoding.pkg" value="sun.io"/><property name="file.separator" value="/"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="js.home" value="/usr/lib/jvm/java-8-graal/jre/languages/js"/><property name="java.class.version" value="52.0"/><property name="llvm.home" value="/usr/lib/jvm/java-8-graal/jre/languages/llvm"/><property name="user.country" value="US"/><property name="java.home" value="/usr/lib/jvm/java-8-graal/jre"/><property name="java.vm.info" value="mixed mode"/><property name="os.version" value="4.18.16-arch1-1-ARCH"/><property name="path.separator" value=":"/><property name="java.vm.version" value="25.192-b12-jvmci-0.49"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="user.home" value="/home/bob"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="org.graalvm.version" value="1.0.0-rc9"/><property name="jline.esc.timeout" value="0"/><property name="org.graalvm.home" value="/usr/lib/jvm/java-8-graal"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.java.command" value="/home/bob/.IdeaIC2018.2/config/plugins/Scala/launcher/sbt-launch.jar idea-shell"/><property name="java.class.path" value="/home/bob/.IdeaIC2018.2/config/plugins/Scala/launcher/sbt-launch.jar"/><property name="chromeinspector.home" value="/usr/lib/jvm/java-8-graal/jre/tools/chromeinspector"/><property name="graalvm.version" value="1.0.0-rc9"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.cpu.endian" value="little"/><property name="sun.os.patch.level" value="unknown"/><property name="regex.home" value="/usr/lib/jvm/java-8-graal/jre/tools/regex"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="jna.platform.library.path" value="/usr/lib64:/lib64:/usr/lib:/lib:/usr/lib32:/usr/local/lib:/usr/lib/openmpi:/usr/lib/octave/4.4.1:/usr/lib/libfakeroot"/><property name="os.arch" value="amd64"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="java.ext.dirs" value="/usr/lib/jvm/java-8-graal/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="user.dir" value="/home/bob/Dropbox/CPL/Scala/2018/project/project-template"/><property name="awt.useSystemAAFontSettings" value="on"/><property name="line.separator" value="
+"/><property name="java.vm.name" value="GraalVM 1.0.0-rc9"/><property name="truffle.home" value="/usr/lib/jvm/java-8-graal/jre/tools/truffle"/><property name="file.encoding" value="UTF-8"/><property name="jvmci.Compiler" value="graal"/><property name="java.specification.version" value="1.8"/>
+    </properties>
+                     <testcase classname="viw.CommandsTest" name="Moving left and right moves the cursor (example for multiple commands)" time="0.005">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59148)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Moving left moves the cursor" time="0.002">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59160)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Moving up moves the cursor" time="0.005">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59173)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Moving down moves the cursor" time="0.004">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59185)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Moving right moves the cursor" time="0.002">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59197)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Next word" time="0.002">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59206)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Back word" time="0.001">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59215)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="End of word" time="0.002">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59224)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="End of line" time="0.001">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59233)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Start of line" time="0.003">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59242)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Match brackets" time="0.001">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59251)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Delete" time="0.001">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59260)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Delete backwards" time="0.001">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59269)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Delete line" time="0.001">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59278)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Join line" time="0.001">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59291)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Insert into normal mode" time="0.001">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59300)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Insert after character" time="0.001">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59309)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Open newline" time="0.004">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59318)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Substitute" time="0.001">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59327)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Go" time="0.002">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59340)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Insert in line" time="0.002">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59349)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Insert after line" time="0.001">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59358)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase><testcase classname="viw.CommandsTest" name="Change to the end of the line" time="0.001">
+                                                 <failure message="an implementation is missing" type="org.scalajs.testcommon.Serializer$ThrowableSerializer$$anon$1">scala.NotImplementedError: an implementation is missing
+	at scala.NotImplementedError.fillInStackTrace(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23166)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:23284)
+	at scala.NotImplementedError.&lt;init&gt;(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:33815)
+	at scala.Predef$.$$qmark$qmark$qmark(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:29516)
+	at viw.ViwTest.viwTest(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28179)
+	at viw.ViwTest.viwMode(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:28205)
+	at &lt;jscode&gt;.{anonymous}()(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:59367)
+	at scala.scalajs.runtime.AnonFunction0.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:30420)
+	at org.scalatest.OutcomeOf.outcomeOf(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:1292)
+	at org.scalatest.Transformer.apply(/home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js:40357)
+</failure>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

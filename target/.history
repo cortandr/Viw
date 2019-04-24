@@ -1,0 +1,25 @@
+test
+reload
+test
+reload
+test
+reload
+test
+clean
+reload
+test
+reload
+test
+testOnly -- StateTest
+testOnly -- *StateTest
+testOnly *StateTest
+~testOnly *StateTest
+test
+var = 'i am andrea'
+var a: String = 'i am andrea'
+val a: String = 'i am andrea'
+a = 'i am andrea'
+a: String = 'i am andrea'
+var a: String = 'i am andrea'
+a = 1
+var a = 1

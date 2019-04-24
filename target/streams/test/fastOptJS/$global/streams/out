@@ -1,0 +1,16 @@
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing /home/bob/Dropbox/CPL/Scala/2018/project/project-template/target/scala-2.12/viw-test-fastopt.js[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 263510 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 150129 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 420315 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: false[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 264418 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 56 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 463918 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 739352 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 189293 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 26820 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 218436 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 1893 -- invalidated: 3[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: resued: 5407 -- invalidated: 13[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter (write output): 294727 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 17 -- invalidated: 5 -- trees read: 4[0m
